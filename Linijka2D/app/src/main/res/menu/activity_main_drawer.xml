@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Główny ekran" />
+        <item
+            android:id="@+id/nav_measure"
+            android:icon="@drawable/ic_measure"
+            android:title="Zmierz detal" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_photos"
+            android:title="Magazyn fotografii" />
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_tutorial"
+            android:title="Kurs Rysunku Technicznego" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_test"
+            android:title="Test sprawdzający" />
+
+        <item
+            android:id="@+id/nav_instrukcja"
+            android:icon="@drawable/detal1"
+            android:title="Instrukcja" />
+
+        <item
+            android:id="@+id/nav_mapy"
+            android:icon="@drawable/ic_author"
+            android:title="Mapa zaufanych firm" />
+
+    </group>
+
+</menu>

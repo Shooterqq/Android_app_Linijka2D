@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#022037"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="POWRÓT"
+                android:textColor="#FF404A80"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Średnice i promienie"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#858585" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/topView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Charakterystycznym wymiarem koła (okręgu) jest jego promień. W technice,  ze względów praktycznych wymiarem koła jest średnica. Z tego powodu powierzchnie walcowe i kuliste wymiaruje się prawie zawsze, podając  średnicę tych elementów geometrycznych z zastosowaniem znaków wymiarowych φ, SR, S φ. Krzywiznę łuku wymiaruje się, podając jego promień, wraz ze znakiem R. W tym przypadku linię wymiarowania wyprowadza się ze środka łuku i tam ogranicza się grotem po wewnętrznej lub zewnętrznej stronie łuku." />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/rys_6" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="pl.zaliczenie.linijka2d.ui.home.HomeFragment"
+        android:label="Główny Ekran"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_measure"
+        android:name="pl.zaliczenie.linijka2d.ui.measure.MeasureFragment"
+        android:label="Pomiar elementu"
+        tools:layout="@layout/fragment_messure" />
+
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="pl.zaliczenie.linijka2d.ui.photos.PhotosFragment"
+        android:label="Magazyn fotografii"
+        tools:layout="@layout/fragment_photos" />
+
+    <fragment
+        android:id="@+id/nav_tutorial"
+        android:name="pl.zaliczenie.linijka2d.ui.tutorial.MenuTutorialFragment"
+        android:label="Kurs rysunku technicznego"
+        tools:layout="@layout/fragment_menu_tutorial" />
+
+    <fragment
+        android:id="@+id/nav_test"
+        android:name="pl.zaliczenie.linijka2d.ui.test.TestFragment"
+        android:label="Test sprawdzający"
+        tools:layout="@layout/fragment_test" />
+
+    <fragment
+        android:id="@+id/nav_instrukcja"
+        android:name="pl.zaliczenie.linijka2d.ui.tutorial.TutorialFragment"
+        android:label="Instrukcja"
+        tools:layout="@layout/fragment_tutorial" />
+
+    <fragment
+        android:id="@+id/nav_mapy"
+        android:name="pl.zaliczenie.linijka2d.ui.Maps.MapsActivity"
+        android:label="Mapy Polecanych firm"
+        tools:layout="@layout/activity_maps" />
+
+</navigation>
